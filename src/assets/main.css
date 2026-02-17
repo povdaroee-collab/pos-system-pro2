@@ -1,0 +1,16 @@
+/* នាំចូល Font: Moul (សម្រាប់ចំណងជើង) និង Kantumruy Pro (សម្រាប់អត្ថបទ) */
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&family=Moul&display=swap');
+
+@import "tailwindcss";
+
+body {
+  /* កំណត់ Font ដើមជា Kantumruy Pro */
+  font-family: "Kantumruy Pro", sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+/* បង្កើត Class សម្រាប់ហៅប្រើ Font Moul */
+.font-moul {
+  font-family: "Moul", serif;
+}
